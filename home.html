@@ -1,0 +1,1324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="images/jpg" href="images/title.jpg"/>
+    <title  >  VIETSTALL</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link rel="stylesheet" href="reponsive.css">
+    <link rel="stylesheet" href="giohang.js">
+   <!--Start of Fchat.vn--><script type="text/javascript" src="https://cdn.fchat.vn/assets/embed/webchat.js?id=648ffdccb673381b0b725793" async="async"></script><!--End of Fchat.vn-->
+</head>
+<body>
+    
+    
+    
+    <div class="header">
+    
+            <img src="images/header5.jpg" alt="">
+        
+    </div>
+   
+  
+    <nav> 
+       <div class="container">
+        <ul> 
+            <li> <a href=""> <img src="images/logo.jpg" alt="" style="width: 150px; height: 50px;"></a></li>
+            <li id="address-form"> <a href="#"> Đà Nẵng<i class="fas fa-sort-down"></i></a> </li>
+            <li> <form action="" id="search-box"><input type="search" id="keyword" placeholder="Bạn muốn tìm gì..."> 
+            <button id="btnSearch" type="button" onclick="search()"><i  class="fas fa-search"></i> </button> </form></li>
+
+            <li > <a href="cart.html">  <button onclick="viewCart()"> <img src="images/icon2.jpg" style="vertical-align: middle; width: 15px; height: 15px;"></img>Giỏ Hàng</button></a></li>
+            <li > <a > <button class="custom-btn btn-2 "><p style="margin-top: -5px;">Lịch Sử <br> Đơn Hàng</p></button></a></li>
+            <li> <a href="">  <button class="custom-btn btn-3 "><p style="margin-top: 3px; font-size: 14px;">Thanh Toán </p></button></a></li>
+            <li> <a href="./index.html">  <button class="custom-btn btn-4 "><p style="font-size: 15px;">Đăng Nhập</p></button></a></li>
+           
+
+            <div class="address-form">
+                <div class="address-form-content">
+                    <h2> Chọn địa chỉ nhận hàng <span id="address-close">  X Đóng </span></h2>
+                    <form action=""> 
+                            <p> Chọn đầy đủ địa chỉ nhận hàng để biết chính xác thời gian giao hàng</p>
+                         <select name="" >
+                                 <option value="#" >--Chọn địa điểm </option> 
+                                 <option value="#" >Đà Nẵng </option> 
+                         </select> 
+                         <select name="" >
+                                 <option value="#" >--Chọn Quận/Huyện </option> 
+                                 <option value="#" >Đà Nẵng </option> 
+                         </select> 
+                         <select name="" >
+                                 <option value="#" >--Chọn Phường/Xã </option> 
+                                 <option value="#" >Đà Nẵng </option>         
+                         </select> 
+                         <input type="text" placeholder=" Số nhà, Tên đường">
+                         <button> Xác Nhận</button>
+                    </form>
+            </div>
+</div>
+   
+        </ul>
+       </div>
+    </nav>
+<section class="menu-bar">
+    <div class="container">
+        <div class="menu-bar-content">
+            <ul> 
+                <li> <a href="#dt"> <i class=" fas fa-mobile-alt"></i>Điện thoại&nbsp;<dd> </dd></a></li>
+                <li> <a href="./laptop.html"> <i class=" fas fa-laptop"></i>Laptop<a></li>
+                <li> <a href="./tablet.html"> <i style="margin-right: 5px;" class=" fas fa-tablet"></i>Tablet&nbsp;</a></li>
+                <li> <a href="#pk"> <i class=" fas fa-city"></i>Phụ Kiện<i style="margin-left: 2px; width: 100%; position: absolute;" class="fas fa-sort-down"></i> </a>
+                <div class="submenu">
+                    <ul> 
+                        <li> <a href=""> Chuột </a></li>
+                        <li> <a href=""> Bàn Phím </a></li>
+                        <li> <a href=""> Ốp Lưng </a></li>
+                        <li> <a href=""> Loa </a></li>
+                        <li> <a href=""> Micro </a></li>
+                        <li> <a href=""> Thẻ Nhớ </a></li>
+                        <li> <a href=""> Camera </a></li>
+                        <li> <a href=""> Túi Chống Sốc </a></li>
+                        <li> <a href=""> Webcam </a></li>
+                    </ul>
+                </div>
+                </li>
+
+                <li> <h4> </h4> <a href="./headphone.html"> <i style="margin-left: 10px;" class=" fas fa-headphones-alt" ></i>Headphone&nbsp;</a></li>
+                <li> <a href="#dh"> <i class=" fas fa-stopwatch-20"></i>Đồng hồ&nbsp;</a></li>
+        
+                <li> <a  href="./giadung.html   "> Hàng Gia Dụng&nbsp;</a></li>
+                <li> <a href=""> Dịch vụ tiện ích&nbsp;<i style="margin-left: 2px;" class="fas fa-sort-down"></i></a>
+                    <div class="submenu">
+                        <ul> 
+                            <li> <a href=""> Đóng tiền điện</a></li>
+                            <li> <a href=""> Thẻ cào điện thoại</a></li>
+                            <li> <a href=""> Thẻ Garena </a></li>
+                            <li> <a href=""> Lắp đăt Internet,Truyền hình </a></li>
+                            <li> <a href=""> Vé xe, máy bay </a></li>
+                            <li> <a href=""> Mua gói truyền hình </a></li>
+                            <li> <a href=""> Đóng tiền trả góp </a></li>
+                        </ul>
+                    </div>
+                </li>
+               
+            </ul>
+        </div>
+    </div>  
+</section>
+<!--------------------slider---------->
+<div class="head20">
+    <img src="images/head20.jpg" alt="">
+</div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 10</div>
+  <img src="images/sil.jpg" >
+  <img src="images/sil2.jpg" >
+
+</div>
+
+
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 10</div>
+  <img src="images/sil3.jpg">
+  <img src="images/sil4.jpg">
+  
+</div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 10</div>
+    <img src="images/sil5.jpg" >
+    <img src="images/sil6.jpg" >
+    
+  </div>
+ 
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 10</div>
+    <img src="images/sil7.jpg">
+    <img src="images/sil8.jpg" >
+   
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 10</div>
+    <img src="images/sil9.jpg">
+    <img src="images/sil10.jpg" alt="">
+    
+  </div>
+ 
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2500); // Change image every 2 seconds
+}
+</script>
+
+<div class="option-pro">
+    <li>
+     <img src="images/h1.jpg" alt=""  style="max-height: 70px; max-width: 70px;"">
+     <span>Remid Note 12 <br> Series</span>
+    </li>
+    <li>
+        <img src="images/h2.jpg" alt="" style="max-height: 70px; max-width: 70px;">
+        <span>Phụ Kiện Giảm <br> Đến  50%++ </span>
+       </li>
+       <li>
+        <img src="images/h3.jpg" alt=""  style="max-height: 70px; max-width: 70px;"">
+        <span>Laptop<br> Xã Kho</span>
+       </li>
+       <li>
+        <img src="images/h4.jpg" alt=""  style="max-height: 70px; max-width: 70px;"">
+        <span>Điện Thoại <br> Giá Rẻ Quá</span>
+       </li>
+ </div>
+
+<section class="slider">
+    
+     <div class="container">
+        <div class="slider-content">
+            <div class="slider-content-left">
+                <div class="slider-content-left-top-container">
+                    <div class="slider-content-left-top" >
+                        <a href="">  <img src="images/slider1.jpg">  </a>
+                        <a href="">  <img src="images/slider2.jpg">  </a>
+                        <a href="">  <img src="images/slider3.jpg">  </a>
+                        <a href="">  <img src="images/slider4.jpg">  </a>
+                       
+    
+                    </div>
+                    <div class="slider-content-left-top-btn">
+                        <i class="fas fa-chevron-left"> </i>
+                        <i class="fas fa-chevron-right"> </i>
+                     </div>  
+                </div>
+                
+                <div class="slider-content-left-bottom">
+                    <li  class="active"> Điện Thoại Giá Sốc</li>
+                    <li> Sale Sốc Đến 70%</li>
+                    <li> Redmi 12C</li>
+                    <li> Sạc Dự Phòng</li>
+
+                </div>
+            </div>
+           
+             </div>
+             <div class="slider-content-right">
+                <img src="images/LOGO12.jpg" style="margin-left: 500px; height: 370px;  margin-top: -20px;" alt="">
+                <img src="images/logo14.jpg" style="height: 370px; margin-left:50px; margin-top: -20px;"  alt="">
+            </div>
+         </div>    
+         
+</section>
+<!-----cart shop------>
+<section class="banner-one">
+    <div class="container">
+        <img src="images/logo1.jpg" alt="" style="width: 1470px; max-height: 100%; margin-top: 20px; ">  
+    </div>
+</section>
+<div class="countdown">
+    <div class="timer">
+    <i class="fas fa-bolt"><p>FLASH SALE</p></i>
+      <span class="hours" >:</span>
+      <p id="haicham"></p>
+      <span class="minutes">:</span>
+      <p id="haicham"></p>
+      <span class="seconds">:</span>
+    </div>
+   
+  </div>
+<section class="slider-product-one">
+    <div class="container">
+        <div class="slider-product-one-content">
+                <div class="slider-product-one-content-title">
+                    
+
+                    <img src="images/logo11.jpg" alt="" style="width: 60%; height: 120px;">
+                    </div>
+                    
+                 <div class="slider-product-one-content-container">
+                     <div class="slider-product-one-content-items-content">
+                        <div class="slider-product-one-content-items" id="product">
+                            <div class="slider-product-one-content-item" id="item">
+                                <img  id="hinhanh" src="images/Galaxy-S22-Plus-White-600x600.jpg" > 
+                                    <div class="slider-product-one-content-item-text" >
+                                        <li  > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> SamSung Galaxy S22 Plus </li>
+                                        <li> Giá rẻ quá</li>
+                                        <li id="price"> 20.999.000<sup> đ</sup></li>
+                                        <li><a>  25.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -20%</span></li>
+                                       
+                                      
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                           
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+
+
+                             </div>
+                 
+                             <div class="slider-product-one-content-item">
+                                <img  id="hinhanh" src="images/item3.jpg"> 
+                                    <div class="slider-product-one-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> Iphone 14promax 256G Xanh Than </li>
+                                        <li> Giá rẻ quá</li>
+                                        <li id="price"> 35.999.000<sup> đ</sup></li>
+                                        <li><a>  40.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -15%</span></li>
+                                       
+                                       
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             <div   class="slider-product-one-content-item">
+                                <img id="hinhanh" src="images/item4.jpg"> 
+                                    <div class="slider-product-one-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá Siêu Rẻ</p> </li>
+                                        <li id="name"> Oppo Find N2 Flip 5G 128GB</li>
+                                        <li> Giá rẻ quá</li>
+                                        <li id="price"> 27.999.000<sup> đ</sup></li>
+                                        <li><a>  30.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -10%</span></li>
+                                        
+                                        
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             <div class="slider-product-one-content-item">
+                                <img  id="hinhanh" src="images/item5.jpg"> 
+                                    <div class="slider-product-one-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> Realme C35 64G Thế Hệ Mới</li>
+                                        <li> Giá rẻ quá</li>
+                                        <li id="price"> 17.990.000<sup> đ</sup></li>
+                                        <li><a>  20.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -21%</span></li>
+                                       
+                                      
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                            
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             <div class="slider-product-one-content-item" >
+                                <img id="hinhanh"src="images/item6.jpg"> 
+                                    <div class="slider-product-one-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> Apple Watch s8 GPS 41mm  </li>
+                                        <li> Giá rẻ quá</li>
+                                        <li id="price"> 4.990.000<sup> đ</sup></li>
+                                        <li><a>  5.555.000</a><sup> đ</sup> <span style="font-size: 12px;"> -8%</span></li>
+                                       
+                                        
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             
+                        </div>
+                        <div class="slider-product-one-content-items">
+                            <div class="slider-product-one-content-item">
+                                <img id="hinhanh" src="images/Galaxy-S22-Ultra-White-600x600.jpg"> 
+                                    <div class="slider-product-one-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> Samsung Galaxy-S22 </li>
+                                        <li> Giá rẻ quá</li>
+                                        <li id="price"> 45.999.000<sup> đ</sup></li>
+                                        <li><a>  50.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -20%</span></li>
+                                       
+                                       
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             <div class="slider-product-one-content-item">
+                                <img id="hinhanh" src="images/realmec33.jpg"> 
+                                    <div class="slider-product-one-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> Realme C33 128G </li>
+                                        <li> Giá rẻ quá</li>
+                                        <li id="price"> 12.999.000<sup> đ</sup></li>
+                                        <li><a>  15.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -15%</span></li>
+                                       
+                                       
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             <div class="slider-product-one-content-item">
+                                <img id="hinhanh"src="images/xiaomiredminote12.jpg"> 
+                                    <div class="slider-product-one-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> Xiaomi Redmi Note 12 </li>
+                                        <li> Giá rẻ quá</li>
+                                        <li id="price"> 28.999.000<sup> đ</sup></li>
+                                        <li><a>  30.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -5%</span></li>
+                                        
+                                       
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             <div class="slider-product-one-content-item">
+                                <img id="hinhanh"src="images/xiaomi-redmi-note-11s-xanh-thumb-1-600x600.jpg"> 
+                                    <div class="slider-product-one-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> Xiaomi Redmi Note11 </li>
+                                        <li> Giá rẻ quá</li>
+                                        <li id="price"> 7.990.000<sup> đ</sup></li>
+                                        <li><a>  10.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -21%</span></li>
+                                       
+                                        
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             <div class="slider-product-one-content-item">
+                                <img id="hinhanh"src="images/vivov25e.jpg"> 
+                                    <div class="slider-product-one-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> Vivo S25 </li>
+                                        <li> Giá rẻ quá</li>
+                                        <li id="price"> 10.990.000<sup> đ</sup></li>
+                                        <li><a>  12.555.000</a><sup> đ</sup> <span style="font-size: 12px;"> -8%</span></li>
+                                      
+                                        
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             
+                        </div>
+                        <div id="lap" class="slider-product-one-content-items">
+                            <div class="slider-product-one-content-item">
+                                <img id="hinhanh"src="images/1msi-creator-z16p-b12ugst-i7-050vn-200322-110128-600x600.jpg"> 
+                                    <div class="slider-product-one-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> MSI Creator Z16P B12UGST-i7 </li>
+                                        <li> Giá rẻ quá</li>
+                                        <li id="price"> 46.999.000<sup> đ</sup></li>
+                                        <li><a>  50.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -20%</span></li>
+                                        
+                                       
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             <div class="slider-product-one-content-item">
+                                <img id="hinhanh"src="images/2lenovo-thinkbook-14s-g2-itl-i5-20va000nvn-600x600-600x600.jpg"> 
+                                    <div class="slider-product-one-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> Lenovo ThinkBook 14S-i5</li>
+                                        <li> Giá rẻ quá</li>
+                                        <li id="price"> 20.999.000<sup> đ</sup></li>
+                                        <li><a>  25.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -15%</span></li>
+                                      
+                                      
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             <div class="slider-product-one-content-item">
+                                <img id="hinhanh"src="images/3dell-gaming-alienware-m15-r6-i7-p109f001dbl-020322-112012-600x600.jpg"> 
+                                    <div class="slider-product-one-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> Dell-Gaming0Alienware-M15-i7 </li>
+                                        <li> Giá rẻ quá</li>
+                                        <li id="price"> 27.999.000<sup> đ</sup></li>
+                                        <li><a>  35.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -20%</span></li>
+                                       
+                                       
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             <div class="slider-product-one-content-item">
+                                <img id="hinhanh" src="images/4msi-gaming-ge66-raider-11ug-i7-258vn-600x600.jpg"> 
+                                    <div class="slider-product-one-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> MSI-Gaming_GE66_RAIDER</li>
+                                        <li> Giá rẻ quá</li>
+                                        <li id="price"> 19.990.000<sup> đ</sup></li>
+                                        <li><a>  21.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -10%</span></li>
+                                       
+                                        
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             <div class="slider-product-one-content-item">
+                                <img id="hinhanh"src="images/5asus-tuf-gaming-fx507z-i7-hn123w-thumb-600x600.jpg"> 
+                                    <div class="slider-product-one-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> ASUS-TUF-GAMING-I7_FX507Z </li>
+                                        <li> Giá rẻ quá</li>
+                                        <li id="price"> 40.990.000<sup> đ</sup></li>
+                                        <li><a>  45.555.000</a><sup> đ</sup> <span style="font-size: 12px;"> -14%</span></li>
+                                       
+                                        
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             
+                        </div>
+                     </div>
+                   
+                    <div class="slider-product-one-content-btn">
+                        <i class="fas fa-chevron-left fa-chervon-left-two"></i>
+                        <i class="fas fa-chevron-right fa-chervon-right-two"></i>
+                    </div> 
+                 </div>
+                   
+            </div>
+    </div>
+    
+
+</section>
+<!------product gallery---->
+<section class="product-gallery-one">
+    <div class="container">
+        <div class="product-gallery-one-content">
+             <div id="dt    " class="product-gallery-one-content-title">
+                <div class="fill-text">
+                     <span>ĐIỆN</span>
+                     <span>THOẠI</span>
+                     <span>NỔI</span>
+                     <span>BẬT</span>
+                     <span>NHẤT</span>
+                     
+                </div>
+                 
+                 <ul> 
+                    <li> <a href=""> <b>SamSung Galaxy </b></a></li>
+                    <li> <a href=""> <b>Iphone 14ProMax</b></a></li>
+                    <li> <a href=""> <b>Xiaomi Redmi Note 9</b></a></li>
+                    <li> <a href=""><b>  Xem tất cả</b></a></li>
+                 </ul>
+            </div>
+            <div class="product-gallery-one-content-product">
+                <div class="product-gallery-one-content-product-item">
+                    <img src="images/pg1.jpg"> 
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li > <img id="hinhanh"src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> Iphone 14 ProMax </li>
+                                        <li> Xã kho giá sốc</li>
+                                        <li><a>  50.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -20%</span></li>
+                                        <li id="price"> 46.999.000<sup> đ</sup></li>
+                                        <li> Quà 500.000 <sup>đ</sup></li>
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img id="hinhanh"src="images/pg2.jpg"> 
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> Samsung Galaxy FE-21 5G </li>
+                                        <li> Xã kho giá sốc</li>
+                                        <li><a>  35.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -10%</span></li>
+                                        <li id="price"> 30.999.000<sup> đ</sup></li>
+                                        <li> Quà 200.000 <sup>đ</sup></li>
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+
+                </div><div class="product-gallery-one-content-product-item">
+                    <img id="hinhanh"src="images/pg3.jpg"> 
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> Oppo Reno 8T 5G 256G </li>
+                                        <li> Xã kho giá sốc</li>
+                                        <li><a>  10.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -20%</span></li>
+                                        <li id="price"> 7.999.000<sup> đ</sup></li>
+                                        <li> Quà 500.000 <sup>đ</sup></li>
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+
+                </div><div class="product-gallery-one-content-product-item">
+                    <img id="hinhanh"src="images/pg4.jpg"> 
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> Samsung Galaxy A34 5G  </li>
+                                        <li> Xã kho giá sốc</li>
+                                        <li><a>  8.450.000</a><sup> đ</sup> <span style="font-size: 12px;"> -25%</span></li>
+                                        <li id="price"> 6.999.000<sup> đ</sup></li>
+                                        <li> Quà 100.000 <sup>đ</sup></li>
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+
+                </div><div class="product-gallery-one-content-product-item">
+                    <img id="hinhanh"src="images/pg5.jpg"> 
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> Realme Redmi C55 65G </li>
+                                        <li> Xã kho giá sốc</li>
+                                        <li><a>  4.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -12%</span></li>
+                                        <li  id="price"> 3.999.000<sup> đ</sup></li>
+                                        <li> Quà 200.000 <sup>đ</sup></li>
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+
+                </div><div class="product-gallery-one-content-product-item">
+                    <img id="hinhanh"src="images/pg6.jpg"> 
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> VIVO Y02S 32GB </li>
+                                        <li> Xã kho giá sốc</li>
+                                        <li ><a>  3.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -17%</span></li>
+                                        <li id="price"> 2.999.000<sup> đ</sup></li>
+                                        <li> Quà 700.000 <sup>đ</sup></li>
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+
+                </div><div class="product-gallery-one-content-product-item">
+                    <img id="hinhanh"src="images/pg7.jpg"> 
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> Samsung Galaxy S21 FE 5G </li>
+                                        <li> Xã kho giá sốc</li>
+                                        <li><a>  60.590.000</a><sup> đ</sup> <span style="font-size: 12px;"> -20%</span></li>
+                                        <li id="price"> 56.999.000<sup> đ</sup></li>
+                                        <li> Quà 200.000 <sup>đ</sup></li>
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+
+                </div><div class="product-gallery-one-content-product-item">
+                    <img id="hinhanh"src="images/pg8.jpg"> 
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> Iphone 13  ProMax </li>
+                                        <li> Xã kho giá sốc</li>
+                                        <li><a>  30.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -18%</span></li>
+                                        <li id="price"> 26.999.000<sup> đ</sup></li>
+                                        <li> Quà 500.000 <sup>đ</sup></li>
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+
+                </div><div class="product-gallery-one-content-product-item">
+                    <img id="hinhanh"src="images/pg9.jpg"> 
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> Xiaomi Redmi note11 5G </li>
+                                        <li> Xã kho giá sốc</li>
+                                        <li><a>  17.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -12%</span></li>
+                                        <li id="price"> 15.999.000<sup> đ</sup></li>
+                                        <li> Quà 400.000 <sup>đ</sup></li>
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+
+                </div><div class="product-gallery-one-content-product-item">
+                    <img id="hinhanh"src="images/Galaxy-S22-Ultra-White-600x600.jpg"> 
+                                    <div class="product-gallery-one-content-product-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Giá sốc online</p> </li>
+                                        <li id="name"> Samsung Galaxy S22 Ultra </li>
+                                        <li> Xã kho giá sốc</li>
+                                        <li><a>  59.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -5 %</span></li>
+                                        <li id="price"> 57.999.000<sup> đ</sup></li>
+                                        <li> Quà 500.000 <sup>đ</sup></li>
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="banner-two">
+    <div class="container1">
+        <img src="images/logo3.jpg" alt="" >
+        <a id="dh"></a>
+    </div>
+</section>
+
+<section class="slider-product-two">
+    <div class="container1">
+        <div class="slider-product-two-content">
+            
+                 <div class="slider-product-two-content-container">
+                     <div class="slider-product-two-content-items-content">
+                        <div class="slider-product-two-content-items">
+                            <div class="slider-product-two-content-item">
+                                <img id="hinhanh"src="images/dh1.jpg"> 
+                                    <div class="slider-product-two-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Double Sale</p> </li>
+                                        <li id="name"> Apple Watch S8 GPS 41mm Viền Nhôm </li>
+                                        <li> Online giá rẻ</li>
+                                        <li><a>  5.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -5%</span></li>
+                                        <li id="price"> 4.999.000<sup> đ</sup></li>
+                                        <li> Quà 100.000 <sup>đ</sup></li>
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             <div class="slider-product-two-content-item">
+                                <img id="hinhanh"src="images/dh2.jpg"> 
+                                    <div class="slider-product-two-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p>  Double Sale</p> </li>
+                                        <li id="name">Samsung Galaxy Watch4 Classic 46mm </li>
+                                        <li> Online giá rẻ</li>
+                                        <li><a>  4.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -5%</span></li>
+                                        <li id="price"> 3.999.000<sup> đ</sup></li>
+                                        <li> Quà 200.000 <sup>đ</sup></li>
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             <div class="slider-product-two-content-item">
+                                <img id="hinhanh"src="images/dh3.jpg"> 
+                                    <div class="slider-product-two-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p> Double Sale</p> </li>
+                                        <li id="name">HAYLOU GST 45.1mm dây silicone </li>
+                                        <li> Xã kho giá sốc</li>
+                                        <li><a>  999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -10%</span></li>
+                                        <li id="price"> 799.000<sup> đ</sup></li>
+                                        <li> Quà 100.000 <sup>đ</sup></li>
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             <div class="slider-product-two-content-item">
+                                <img id="hinhanh"src="images/dh4.jpg"> 
+                                    <div class="slider-product-two-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p>  Double Sale</p> </li>
+                                        <li id="name"> BeFit Sporty 2 44.5mm dây silicone </li>
+                                        <li> Online giá rẻ</li>
+                                        <li><a>  2.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -21%</span></li>
+                                        <li id="price"> 1.990.000<sup> đ</sup></li>
+                                        <li> Quà 200.000 <sup>đ</sup></li>
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             <div class="slider-product-two-content-item">
+                                <img id="hinhanh"src="images/dh5.jpg"> 
+                                    <div class="slider-product-two-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p>  Double Sale</p> </li>
+                                        <li id="name"> Apple Watch se GPS 40mm  </li>
+                                        <li>  Online giá rẻ</li>
+                                        <li><a>  5.555.000</a><sup> đ</sup> <span style="font-size: 12px;"> -8%</span></li>
+                                        <li id="price"> 4.990.000<sup> đ</sup></li>
+                                        
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             
+                        </div>
+                        <div class="slider-product-two-content-items">
+                            <div class="slider-product-two-content-item">
+                                <img id="hinhanh"src="images/dh6.jpg"> 
+                                    <div class="slider-product-two-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p>  Double Sale</p> </li>
+                                        <li id="name"> Honor Watch GS3 45.9mm  </li>
+                                        <li> Online giá rẻ</li>
+                                        <li><a>  5.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -20%</span></li>
+                                        <li id="price"> 3.999.000<sup> đ</sup></li>
+                                        <li> Quà 500.000 <sup>đ</sup></li>
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             <div class="slider-product-two-content-item">
+                                <img id="hinhanh"src="images/dh7.jpg"> 
+                                    <div class="slider-product-two-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p>  Double Sale</p> </li>
+                                        <li id="name"> Xiaomi Redmid watch dây silicon</li>
+                                        <li> Xã kho giá sốc</li>
+                                        <li><a>  1.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -15%</span></li>
+                                        <li id="price"> 999.000<sup> đ</sup></li>
+                                        <li> Quà 200.000 <sup>đ</sup></li>
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             <div class="slider-product-two-content-item">
+                                <img id="hinhanh"src="images/dh8.jpg"> 
+                                    <div class="slider-product-two-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p>  Double Sale</p> </li>
+                                        <li id="name"> Xiaomi Redmi Band 2 dây dù </li>
+                                        <li> Xã kho giá sốc</li>
+                                        <li><a>  3.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -5%</span></li>
+                                        <li id="price"> 2.999.000<sup> đ</sup></li>
+                                        <li> Quà 400.000 <sup>đ</sup></li>
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             <div class="slider-product-two-content-item">
+                                <img id="hinhanh"src="images/dh9.jpg"> 
+                                    <div class="slider-product-two-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p>  Double Sale</p> </li>
+                                        <li id="name"> Masstel smart hero 20 dây silicon</li>
+                                        <li> Xã kho giá sốc</li>
+                                        <li><a>  10.999.000</a><sup> đ</sup> <span style="font-size: 12px;"> -21%</span></li>
+                                        <li id="price"> 7.990.000<sup> đ</sup></li>
+                                        <li> Quà 200.000 <sup>đ</sup></li>
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             <div class="slider-product-two-content-item">
+                                <img id="hinhanh"src="images/dh10.jpg"> 
+                                    <div class="slider-product-two-content-item-text">
+                                        <li > <img src="images/text1.jpg" alt=""><p >  Double Sale</p> </li>
+                                        <li id="name"> AmazFitz GTR550 </li>
+                                        <li> Xã kho giá sốc</li>
+                                        <li><a>  12.555.000</a><sup> đ</sup> <span style="font-size: 12px;"> -8%</span></li>
+                                        <li id="price"> 8.990.000<sup> đ</sup></li>
+                                        
+                                            <li>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+                                              <i class="fas fa-star"> </i>
+    
+                                            </li>
+                                  </div>
+                                  <button  class="btn-hover color-1" type="submit" class="addcart" onclick="addToCart()"><i class="fa fa-shopping-cart"></i> Thêm vào giỏ hàng</button>
+                             </div>
+                             
+                            </div>
+                        </div>
+                      
+                       <div class="slider-product-two-content-btn">
+                           <i class="fas fa-chevron-left fa-chervon-left-three"></i>
+                           <i class="fas fa-chevron-right fa-chervon-right-three"></i>
+                       </div> 
+                    </div>
+                      
+               </div>
+       </div>
+   </section>
+ 
+ 
+ <div class="border11">
+    <div class="danhmuc"> <p style="font-size: 30px; font-weight: bold; margin-left: 10px; margin-top: 10px; width: 80%; ">Danh Mục Nổi Bật</p></div>
+    <div class="boder1">
+        <div class="boder-item">
+            <img src="images/laptop.jpg" alt="">
+            <li>Laptop</li>
+        </div>
+        <div class="boder-item">
+            <img src="images/11loa.jpg" alt="">
+            <li>Loa Nghe Nhạc</li>
+        </div>
+        <div class="boder-item">
+            <img src="images/12tainghe.jpg" alt="">
+            <li>Tai Nghe</li>
+        </div>
+        <div class="boder-item">
+            <img src="images/13sacduphong.jpg" alt="">
+            <li>Sạc Dự Phòng</li>
+        </div><div class="boder-item">
+            <img src="images/14capsac.jpg" alt="">
+            <li>Cáp Sạc</li>
+        </div><div class="boder-item">
+            <img src="images/15maytinhbo.jpg" alt="">
+            <li>Máy Tính Bàn</li>
+        </div><div class="boder-item">
+            <img src="images/16mayin.jpg" alt="">
+            <li>Máy In</li>
+        </div><div class="boder-item">
+            <img src="images/18phukien.jpg" alt="">
+            <li>Phụ Kiện</li>
+        </div><div class="boder-item">
+            <img src="images/19webcam.jpg" alt="">
+            <li>WebCam-Camera</li>
+        </div><div class="boder-item">
+            <img src="images/20thietbithongming.jpg" alt="">
+            <li>Thiết Bị Thông Minh</li>
+        </div>
+     </div>
+    <!---tieptheo-->
+    <div id="phu" class="boder1">
+        <div class="boder-item">
+            <img src="images/1laptop.jpg" alt="">
+            <li>Laptop</li>
+        </div>
+        <div class="boder-item">
+            <img src="images/2tablet.jpg" alt="">
+            <li>Tablet</li>
+        </div>
+        <div class="boder-item">
+            <img src="images/3dho.jpg "">
+            <li>Đồng Hồ Thông Minh</li>
+        </div>
+        <div class="boder-item">
+            <img src="images/4dth.jpg" alt="">
+            <li>Điện Thoại</li>
+        </div><div class="boder-item">
+            <img src="images/5dhthoitrang.jpg" alt="">
+            <li> Đồng Hồ Thời Trang</li>
+        </div><div class="boder-item">
+            <img src="images/6maycu.jpg" alt="">
+            <li>Máy Cũ Giá rẻ</li>
+        </div><div class="boder-item">
+            <img src="images/7oplung.jpg" alt="">
+            <li>Ốp Lưng</li>
+        </div><div class="boder-item">
+            <img src="images/8chuot.jpg" alt="">
+            <li>Chuột</li>
+        </div><div class="boder-item">
+            <img src="images/9banphim.jpg" alt="">
+            <li>Bàn Phím</li>
+        </div><div class="boder-item">
+            <img src="images/10sim.jpg" alt="">
+            <li>Sim</li>
+        </div>
+     </div>
+     
+ </div>
+ <div class="xuhuong">
+    <div class="item">
+        <p>XU HƯỚNG MUA SẮM</p>
+        <div class="head">
+            <img src="images/head.jpg" alt="">
+        </div>
+        <div class="head1">
+           <div class="den">
+            <img src="images/1.jpg" alt="">
+           </div>
+           <div class="den">
+            <img src="images/2.jpg" alt="">
+           </div>
+           <div class="den">
+            <img src="images/3.jpg" alt="">
+           </div>
+           <div class="den">
+            <img src="images/4.jpg" alt="">
+           </div>
+        </div>
+    </div>
+  </div>
+  <div class="xuhuong1">
+    <div class="item1">
+        <p>CHUYÊN TRANG THƯƠNG HIỆU</p>
+        <div class="head1">
+            <img class="animal" src="images/th1.jpg" alt="">
+            <img class="animal" src="images/th2.jpg" alt="">
+            <img class="animal" src="images/th3.jpg" alt="">
+           
+           
+        </div>
+    </div>
+  </div>
+
+
+
+ <!------phan end-->
+ <button class="button">Hãy Liên Hệ Với Chúng Tôi Qua:</button>
+ <ul  class="wrapper">
+    
+    <a href="https://www.facebook.com/Kay224N">
+        <li class="icon facebook">
+            <span  class="tooltip" >Facebook</span>
+            <span href="" ><i  class="fab fa-facebook"></i></span>
+          </li>
+    </a>
+    
+    <a href="https://www.tiktok.com/@thnanath">
+        <li class="icon twitter">
+            <span class="tooltip">TikTok</span>
+            <span><i class="fab fa-tiktok"></i></span>
+          </li>
+    </a>
+    <a href="https://www.instagram.com/kay224n/">
+         <li class="icon instagram">
+      <span class="tooltip">Instagram</span>
+      <span><i class="fab fa-instagram"></i></span>
+    </li>
+    </a>
+    
+    <a href="https://github.com/ThanhNhatt">
+        <li class="icon github">
+            <span class="tooltip">Github</span>
+            <span><i class="fab fa-github"></i></span>
+          </li>
+    </a>
+   <a href="https://www.youtube.com/channel/UCGk7V-QVTCMn_7kDEbVn37w">
+    <li class="icon youtube">
+        <span class="tooltip">Youtube</span>
+        <span><i class="fab fa-youtube"></i></span>
+      </li>
+   </a>
+    
+   
+  </ul>
+
+ 
+<!---------------end-->
+<div class="footer-address">
+    <div class="class-end1">
+        <ul>
+            <li>
+                <p>Trợ Giúp</p>
+            </li>
+            <li>
+                Trung Tâm Trợ Giúp
+            </li>
+            <li>
+                Hình Thức Thanh Toán
+            </li>
+            <li>Liên Hệ</li>
+        </ul>
+    </div>
+    <div class="class-end2">
+        <ul>
+            <li>
+                <p>Tổng Đài Hỗ Trợ</p>
+            </li>
+            <li>
+                Tư Vấn Dịch Vụ
+            </li>
+            <li>
+                Hộ Trợ Vận Chuyển
+            </li>
+            <li>Email Support: Decalseri@gmail.com</li>
+            <li>Từ 7h->22h Thứ 2 đến Chủ Nhật</li>
+        </ul>
+    </div>
+</div>
+<div class="class-end3">
+    <ul>
+        <li>
+            <p>Hợp Tác</p>
+        </li>
+        <li>
+            Nhà Phát Triển ứng Dụng
+        </li>
+        <li>
+           Dành Cho Nhà Thiết Kế
+        </li>
+        <li>Dành Cho Nhà Đầu Tư</li>
+        <li>Dành Cho Trường Học</li>
+    </ul>
+</div>
+<div class="class-end4">
+    <ul>
+        <li>
+            <p>Liên Hệ Hợp Tác</p>
+        </li>
+        <li>
+            Tel:0971633396
+        </li>
+        <li>
+          Mail:thanhnhathc2004@gmail.com
+        </li>
+        <li>Facebook:Thanh Nhật</li>
+        <li>Ins: Thanh Nhật</li>
+    </ul>
+</div>
+<div class="class-end5">
+    <ul>
+        <li> CÔNG TY CỔ PHẦN TRÁCH NHIỆM HỮU HẠN CHƯA THÀNH LẬP VIỆT SỜ TO</li>
+        <p >Địa Chỉ: 470 Đường Trần Đại Nghĩa, Khu đô thị, Ngũ Hành Sơn, Đà Nẵng 550000, Việt Nam</p>
+    </ul>
+</div>
+<div id="map" style="width: 300px; height: 200px;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835.733297470243!2d108.2501663146936!3d15.975298246192114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142108997dc971f%3A0x1295cb3d313469c9!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2jhu4cgVGjDtG5nIHRpbiB2w6AgVHJ1eeG7gW4gdGjDtG5nIFZp4buHdCAtIEjDoG4!5e0!3m2!1svi!2s!4v1680971692025!5m2!1svi!2s" width="300" height="200"  style="border:0; margin-left: 1050px; margin-top: 10px; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<div class="ket">
+    <p style="background-color: #888383; text-align: center; margin-top: 20px;">CopyRight &#169; 2023 VIETSTALL- Nền Tảng Bán Hàng Tại Việt Nam</p>
+</div>
+              
+
+<script src="java.js"> </script>
+<script src="giohang.js"></script>
+<script src="search.js"></script>
+
+
+</body>
+</html>
